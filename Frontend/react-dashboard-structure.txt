@@ -1,0 +1,66 @@
+# Structure du projet frontend React
+
+```
+src/
+├── assets/              # Images, fonts, etc.
+├── components/          # Composants réutilisables
+│   ├── auth/            # Composants liés à l'authentification
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── ProfileSettings.jsx
+│   ├── layout/          # Composants de mise en page
+│   │   ├── Header.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── Footer.jsx
+│   ├── dashboard/       # Composants du tableau de bord
+│   │   ├── Dashboard.jsx
+│   │   └── DashboardWidgets.jsx
+│   ├── data/            # Composants de gestion des données
+│   │   ├── DataImport.jsx
+│   │   ├── DataTable.jsx
+│   │   └── DataPreview.jsx
+│   ├── visualization/   # Composants de visualisation
+│   │   ├── ChartContainer.jsx
+│   │   ├── BarChart.jsx
+│   │   ├── LineChart.jsx
+│   │   └── PieChart.jsx
+│   ├── analysis/        # Composants d'analyse
+│   │   ├── StatisticsPanel.jsx
+│   │   ├── CorrelationMatrix.jsx
+│   │   └── AnomalyDetection.jsx
+│   ├── reports/         # Composants de rapports
+│   │   ├── ReportGenerator.jsx
+│   │   └── ExportPanel.jsx
+│   └── admin/           # Composants d'administration
+│       ├── UserManagement.jsx
+│       └── AuditLog.jsx
+├── context/             # Contextes React
+│   ├── AuthContext.jsx
+│   └── DataContext.jsx
+├── hooks/               # Hooks personnalisés
+│   ├── useAuth.js
+│   ├── useData.js
+│   └── useCharts.js
+├── services/            # Services d'API
+│   ├── api.js           # Configuration axios
+│   ├── authService.js
+│   ├── dataService.js
+│   ├── chartService.js
+│   └── reportService.js
+├── utils/               # Fonctions utilitaires
+│   ├── formatData.js
+│   ├── validators.js
+│   └── chartUtils.js
+├── pages/               # Pages principales
+│   ├── LoginPage.jsx
+│   ├── DashboardPage.jsx
+│   ├── DataManagementPage.jsx
+│   ├── VisualizationPage.jsx
+│   ├── AnalysisPage.jsx
+│   ├── ReportsPage.jsx
+│   └── AdminPage.jsx
+├── routes/              # Configuration des routes
+│   └── AppRoutes.jsx
+├── App.jsx              # Composant racine
+└── index.js             # Point d'entrée
+```
