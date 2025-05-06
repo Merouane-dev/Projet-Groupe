@@ -18,8 +18,8 @@ Avant de commencer à contribuer, assurez-vous d'avoir :
 
 ```bash
 # Cloner votre fork
-git clone https://github.com/votre-username/dashboard-collaboratif.git
-cd dashboard-collaboratif
+git clone https://github.com/Merouane-dev/Projet-Groupe.git
+cd Projet-groupe
 
 # Ajouter le dépôt d'origine comme remote
 git remote add upstream https://github.com/organisation-principale/dashboard-collaboratif.git

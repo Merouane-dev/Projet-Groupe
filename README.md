@@ -33,7 +33,7 @@ Ce projet est un dashboard collaboratif permettant d'importer, analyser et visua
 1. **Cloner le dépôt**
 
 ```bash
-git clone https://github.com/votre-utilisateur/dashboard-collaboratif.git
+git clone https://github.com/Merouane-dev/Projet-Groupe.git
 cd dashboard-collaboratif
 ```
 
