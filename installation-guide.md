@@ -6,7 +6,7 @@ Ce document fournit des instructions détaillées pour installer et configurer l
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/votre-utilisateur/dashboard-collaboratif.git
+git clone https://github.com/Merouane-dev/Projet-Groupe.git
 
 # Accéder au répertoire du projet
 cd dashboard-collaboratif
